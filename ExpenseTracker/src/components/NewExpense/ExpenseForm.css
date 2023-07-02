@@ -1,0 +1,68 @@
+/*.new-expense__actions{*/
+/*    text-align: right;*/
+/*}*/
+
+/*.submit-button{*/
+/*    background-color: #c1946a;*/
+/*    margin: 10px 20px;*/
+/*    padding: 20px;*/
+/*    border-radius: 5px;*/
+/*    color: #3e4444;*/
+/*    font-weight: bold;*/
+/*    font-size: 20px;*/
+/*    display: inline-block;*/
+
+/*}*/
+/*.new-expense__actions{*/
+/*    text-align: right;*/
+/*}*/
+/*.new-expense__control{*/
+/*    margin: 10px 30px;*/
+/*    font-size: 20px;*/
+/*    display: inline-block;*/
+/*}*/
+
+/*!*.title{*!*/
+/*!*    display: inline-block;*!*/
+/*!*}*!*/
+/*!*.amount {*!*/
+/*!*    display: inline-block;*!*/
+/*!*}*!*/
+/*!*.date {*!*/
+/*!* display: block;*!*/
+/*!*}*!*/
+
+/*input{*/
+/*    border-radius: 5px;*/
+/*    min-height: 50px;*/
+/*    min-width: 400px;*/
+/*    margin: 10px 0;*/
+/*    display: block;*/
+/*}*/
+
+.new-expense__controls {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin-bottom: 1rem;
+    text-align: left;
+}
+
+.new-expense__control label {
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+    display: block;
+}
+
+.new-expense__control input {
+    font: inherit;
+    padding: 0.5rem;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    width: 20rem;
+    max-width: 100%;
+}
+
+.new-expense__actions {
+    text-align: right;
+}
